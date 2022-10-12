@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Game/Scenes/Startup.unity
+    guid: e3073b5a16d054748809bcb4c82c69f9
+  - enabled: 1
+    path: Assets/Game/Scenes/MainScreen.unity
+    guid: d6a91baa6ffdf144f9fc8eeff631e6ef
+  - enabled: 1
+    path: Assets/Game/Scenes/SimpleTu.unity
+    guid: d8f79922df48c3647ac3d677a472d6d4
+  - enabled: 1
+    path: Assets/Game/Scenes/MainMenu.unity
+    guid: afd1e8bc6a0c85b4db0ab50184d12deb
+  - enabled: 1
+    path: Assets/Game/Scenes/OnlineMatchMode.unity
+    guid: b68ad86ca96cb844489e85d130a560fe
+  - enabled: 1
+    path: Assets/Game/Scenes/TourmentMode.unity
+    guid: e1253ba37f8007549a4c105f959cd598
+  - enabled: 1
+    path: Assets/Game/Scenes/DifficultyMode.unity
+    guid: 6b1c889283a88874dbd1d12486e7b0b0
+  - enabled: 1
+    path: Assets/Game/Scenes/EditProfile.unity
+    guid: bf3390e2123b1024f9db8f4b0af3fcc6
+  - enabled: 1
+    path: Assets/Game/Scenes/Shop.unity
+    guid: a20adf6b6babfa74186f8b5234dce6e4
+  - enabled: 1
+    path: Assets/Game/Scenes/Lobby_LAN.unity
+    guid: 50bc983c7719e604a838708c35f11a33
+  - enabled: 1
+    path: Assets/Game/Scenes/Game_Local.unity
+    guid: d6073d1ae53872742845bd910b7aecbf
+  - enabled: 1
+    path: Assets/Game/Scenes/Game_Net.unity
+    guid: 220b42602c7291f4999cae7171da0bed
+  m_configObjects: {}

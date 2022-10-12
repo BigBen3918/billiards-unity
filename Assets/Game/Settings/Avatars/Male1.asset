@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d1888907bdae91479607310c7bfb674, type: 3}
+  m_Name: Male1
+  m_EditorClassIdentifier: 
+  avatarId: m1
+  avatarName: Male1
+  avatarSprite: {fileID: 21300000, guid: 2ad92219a0688d9459445b0211d55cf6, type: 3}
+  price: 0

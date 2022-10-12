@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1799315440835672}
+  m_IsPrefabParent: 1
+--- !u!1 &1799315440835672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4843923250883282}
+  - component: {fileID: 114776105626064390}
+  - component: {fileID: 114974284770720906}
+  m_Layer: 0
+  m_Name: Player_Net
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4843923250883282
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1799315440835672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114776105626064390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1799315440835672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9ad767ea2d03ef428275cb3c7e6b5e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerId: 
+  playerName: 
+  cuePrefab: {fileID: 1728567628891958, guid: 38b10e7163158184eb4d96abbf0f1bae, type: 2}
+  ui: {fileID: 0}
+  maxAwayTimeAllowed: 10
+  awayTimeThreshold: 2
+  tickInterval: 0.5
+--- !u!114 &114974284770720906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1799315440835672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 41
+    i1: 148
+    i2: 253
+    i3: 11
+    i4: 106
+    i5: 182
+    i6: 114
+    i7: 84
+    i8: 201
+    i9: 203
+    i10: 248
+    i11: 120
+    i12: 211
+    i13: 106
+    i14: 198
+    i15: 129
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1

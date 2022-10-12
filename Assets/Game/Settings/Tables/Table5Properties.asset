@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85efac5525de2464885667d915f04389, type: 3}
+  m_Name: Table5Properties
+  m_EditorClassIdentifier: 
+  tableId: 5
+  tableName: Red Carpet
+  tableSprite: {fileID: 21300000, guid: 56fd829b09e0c3641bbe641f092719a1, type: 3}
+  thumbnailSprite: {fileID: 21300000, guid: 3b65519fc9d7bb74c824bb7651631933, type: 3}
+  price: 1200

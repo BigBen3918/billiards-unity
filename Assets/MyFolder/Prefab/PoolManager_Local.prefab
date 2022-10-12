@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3121393963419121342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3121393963419121343}
+  - component: {fileID: 3121393963419121330}
+  - component: {fileID: 3121393963419121329}
+  - component: {fileID: 3121393963419121328}
+  m_Layer: 0
+  m_Name: PoolManager_Local
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3121393963419121343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3121393963419121342}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3121393963419121330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3121393963419121342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f342c50c48f8af40bb03111768af979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  table: {fileID: 0}
+  cueBallPrefab: {fileID: 1219552089712882, guid: edf2bd70ce2aa864bbcb6815f48d9f79,
+    type: 3}
+  ballPrefabs:
+  - {fileID: 1452910100238636, guid: d42ab496a67a8c646ad220f8ba285852, type: 3}
+  - {fileID: 1268657683424262, guid: 6c08f3118fc3aab4aa4dfbfd9cd32a2c, type: 3}
+  - {fileID: 1986963722989042, guid: 9faf7a4e8461b8943a36eb2953d31f24, type: 3}
+  - {fileID: 1957900520976976, guid: c44ee022cf41a124bb22e03e5d3db271, type: 3}
+  - {fileID: 1896510526271614, guid: d5a1090d3bd8c9d42a891a8a911f342b, type: 3}
+  - {fileID: 1482101811852450, guid: 4b069d1ec791c8847a1e473b683ceb6f, type: 3}
+  - {fileID: 1261023252093478, guid: ddb9e57db06bf4e4295ab807c1e0df4c, type: 3}
+  - {fileID: 1647156951321972, guid: 75cd967c33d525d4990c259e26b5b767, type: 3}
+  - {fileID: 1881771562323786, guid: 9d5fca672b27c5f40b23a76fef59c301, type: 3}
+  - {fileID: 1485691728908610, guid: b380f6871463a5143ba52c8b637a0f42, type: 3}
+  - {fileID: 1155123615887926, guid: c3c18e2883c88004daffdbe6b3c1742d, type: 3}
+  - {fileID: 1769093944803696, guid: be0205d0020d9dc44847aa52c245a7e6, type: 3}
+  - {fileID: 1019785956264010, guid: 556a717cdcda91b488a47e46d9c754ef, type: 3}
+  - {fileID: 1980771850092822, guid: 81960f2b8b4391c41b6bef173f1e31c0, type: 3}
+  - {fileID: 1549183967214376, guid: d30f11e67c4b64d40befc1f2a877834b, type: 3}
+  ballCollectorPoints: {fileID: 0}
+  gameUI: {fileID: 0}
+  cueBallIndicatorPrefab: {fileID: 1176322673242588, guid: 4912ba2edc2b83744a7a963f04a61a40,
+    type: 3}
+  ballInHandIndicatorPrefab: {fileID: 1240472328062678, guid: 75d0833eaa5cbab4d9c7d58ce6d51edd,
+    type: 3}
+  rackSound: {fileID: 8300000, guid: d6823dc3d2630ba41bfbe1aa1d627f48, type: 3}
+  foulSound: {fileID: 8300000, guid: 718649d8e04044b4e8df6582e0860c47, type: 3}
+  playerPrefab: {fileID: 1799315440835672, guid: 6d20dc1ee093d5347ba871d33f2f1984,
+    type: 3}
+  playerPrefabAI: {fileID: 1799315440835672, guid: 046f40d3eaf24504797ebe6b980550cf,
+    type: 3}
+--- !u!114 &3121393963419121329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3121393963419121342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73ff92348bbb5c4297ae8505bb7338c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3121393963419121328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3121393963419121342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

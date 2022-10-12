@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11894774374f164587cbcda503daa27, type: 3}
+  m_Name: InAppProduct2
+  m_EditorClassIdentifier: 
+  productId: 8ball_1500coins
+  productImage: {fileID: 21300000, guid: 58838f4d03c88c4418e331804ab2f71b, type: 3}
+  coinsToAdd: 1500
+  removeAds: 0
+  productType: 0

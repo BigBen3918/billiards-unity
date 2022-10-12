@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1884759929669880}
+  m_IsPrefabParent: 1
+--- !u!1 &1884759929669880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4597411929425764}
+  - component: {fileID: 114628489603603572}
+  m_Layer: 0
+  m_Name: Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4597411929425764
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1884759929669880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114628489603603572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1884759929669880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2417b8dbec76f9e48a12f5e984a94e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneManagerPrefab: {fileID: 1444454394592466, guid: 168d81df33c73ea46913746cab7effbb,
+    type: 2}
+  networkManagerPrefab: {fileID: 1452315510268858, guid: 71e16e63a27138340aae15e8818861f8,
+    type: 2}
+  gameFinderPrefab: {fileID: 1670278031812996, guid: 2f0abfcea1ee1084898892b045eccb8a,
+    type: 2}
+  audioManagerPrefab: {fileID: 1886495950897638, guid: 6d022986cf082574f9eaef3c53f7a6f1,
+    type: 2}
+  playerInfoPrefab: {fileID: 1387469057036998, guid: 076f245a7d5a81b499c1ac1ae7dd2ff0,
+    type: 2}
+  popupManagerPrefab: {fileID: 1170998165400786, guid: 1f8a6ed976ef9ce4cb0f602a0e00e4a0,
+    type: 2}
+  appStoreManager: {fileID: 1324608468316872, guid: 1001563493f119b44be1c3979d97dc5a,
+    type: 2}
+  adsManager: {fileID: 1198085019049202, guid: 2cebb1647ba1288418380225db12c708, type: 2}
